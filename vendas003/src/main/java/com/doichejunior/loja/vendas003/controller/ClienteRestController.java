@@ -12,13 +12,14 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.doichejunior.loja.vendas003.model.Cliente;
-import com.doichejunior.loja.vendas003.service.VendaSerive;
+import com.doichejunior.loja.vendas003.service.ClienteService;
+
 
 @RestController
 @RequestMapping("clientes")
 public class ClienteRestController {
 	@Autowired
-	private VendaSerive clienteService;
+	private ClienteService clienteService;
 
 	@GetMapping
 	public ResponseEntity<Iterable<Cliente>> buscarTodos() {

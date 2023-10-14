@@ -15,7 +15,7 @@ import com.doichejunior.loja.vendas003.model.ItemVenda;
 import com.doichejunior.loja.vendas003.service.ItemVendaService;
 
 @RestController
-@RequestMapping("itemVenda")
+@RequestMapping("itemVendas")
 public class ItemVendaRestController {
 	@Autowired
 	private ItemVendaService itemVendaServce;

@@ -9,11 +9,11 @@ import com.doichejunior.loja.vendas003.model.Cliente;
 import com.doichejunior.loja.vendas003.model.Endereco;
 import com.doichejunior.loja.vendas003.repository.ClienteRepository;
 import com.doichejunior.loja.vendas003.repository.EnderecoRepository;
-import com.doichejunior.loja.vendas003.service.VendaSerive;
+import com.doichejunior.loja.vendas003.service.ClienteService;
 import com.doichejunior.loja.vendas003.service.ViaCepService;
 
 @Service
-public class ClienteServiceImpl implements VendaSerive {
+public class ClienteServiceImpl implements ClienteService {
 
 	// Singleton: injetar os componentes do Spring com @AutoWired;
 	@Autowired

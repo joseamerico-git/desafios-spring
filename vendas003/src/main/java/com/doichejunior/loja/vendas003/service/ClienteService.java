@@ -3,7 +3,7 @@ package com.doichejunior.loja.vendas003.service;
 import com.doichejunior.loja.vendas003.model.Cliente;
 
 //Strategy
-public interface VendaSerive {
+public interface ClienteService {
 
 	Iterable<Cliente> buscarTodos();
 
